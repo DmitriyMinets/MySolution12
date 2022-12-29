@@ -23,7 +23,7 @@ namespace Ex._2
             Show();
         }
 
-        private void Sort()
+        private void Sort() //Сортируем по размеру животного
         {
             for(int i = 0; i < _animals.Count; i++)
             {
@@ -38,7 +38,7 @@ namespace Ex._2
                     }
                 }
             }
-        } //Сортируем по размеру животного
+        } 
 
         private void Show()
         {
