@@ -39,6 +39,7 @@ namespace Ex._2
                 }
             }
         } //Сортируем по размеру животного
+
         private void Show()
         {
             foreach(var item in _animals)
